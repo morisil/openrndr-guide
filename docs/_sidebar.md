@@ -57,6 +57,7 @@
   - [Distance fields](10_OPENRNDR_Extras/C12_Distance_fields.md)
 - OPENRNDR Machine Learning
   - [ORML](12_Machine_learning/C00_ORML.md)
+  - [orml-blazepose](12_Machine_learning/C01_ORML_Blazepose.md)
 - Advanced Topics
   - [Logging](11_Advanced_Topics/C00_Logging.md)
   - [Application Flow](11_Advanced_Topics/C01_Application_Flow.md)
