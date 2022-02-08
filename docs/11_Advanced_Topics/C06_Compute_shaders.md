@@ -53,7 +53,7 @@ the time changes on every frame.
  ```kotlin
 application {
     program {
-        val cs = ComputeShader.fromFile(File("data/compute-shaders/fill.cs"))
+        val cs = ComputeShader.fromCode(File("data/compute-shaders/fill.cs").readText(), "cs1")
         
         val tempBuffer = loadImage("data/images/cheeta.jpg")
         val inputBuffer = colorBuffer(width, height)
